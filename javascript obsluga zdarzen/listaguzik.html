@@ -1,0 +1,21 @@
+<div id="box">
+
+<p>Kliknij przycisk  aby luj</p>
+
+<ul id="lista"></ul>
+
+<button onclick="myFunction()">Dodaj fanty</button>
+
+</div>
+
+<script>
+    let counter = 1
+function myFunction(){
+    let ul = document.getElementById("lista");
+    let li = document.createElement("li");
+    li.textContent = "luj "+counter;
+    ul.appendChild(li);
+counter++ 
+}
+
+</script>

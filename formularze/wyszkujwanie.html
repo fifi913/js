@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <p>Wyszukiwanie wartości tekstu</p>
+ <script>
+    let tekst="Być albo nie być";
+    var wrzorzec= ( / być /i);
+    var pozycja = tekst.search(wrzorzec);
+    document.writeln('wyraz znaleziono na pozycji:'+pozycja)
+   
+    <script>
+    let tekst="tel. 353257334";
+    var wzorzec = /\d\d\d\d\d\d\d\d\d/;
+    var pozycja=tekst.search(wzorzec);
+    document.writeln('cyfry znaleziono na pozycji: '+pozycja)
+</script>
+
+<p>Wyszukiwanie obrazka *.gif</p>
+<script>
+    let tekst="ikona jest w logo.gif";
+    var gifRegex=/\S*\.gif/i
+    let position=tekst.search(gifRegex)
+    document.writeln(tekst.slice(position));
+</script>
+
+
+		
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa powiatu</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+    <img src="powiat_suski.png" usemap="#workmap" alt="Mapa powiatu">
+    <map name="workmap">
+        <area shape="rect" coords="491,300,530,320"
+              href="https://www.bystra-sidzina.pl/"
+              alt="Bystra Podhalańska">
+    </map>
+
+</body>
+</html>
