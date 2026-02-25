@@ -1,2 +1,2 @@
 # javascript
-well well well
+School thingies
